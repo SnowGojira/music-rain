@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    background-color: #000000;
+    font-family: 'Helvatica', sans-serif;
+    color: #FFFFFF;
+}
+
+
+#visual{
+    width: 100%;
+    height: 100%;
+    top: 3em;
+    position: absolute;
+    /*background-image: url("bg.gif") ;*/
+}
+.button{
+    font-family: "Times New Roman","Arial";
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: #a4a4a4;
+    display: inline-block;
+    padding: 0.8rem 0.8rem;
+    font-size: 0.7em;
+    cursor: pointer;
+    border-radius: 8px;
+    letter-spacing: 0.1em;
+    z-index: 1;
+}
+canvas {
+    opacity:0.8;
+    display: block;
+}
+
+input {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+
+i {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+body.loaded i {
+    display: none;
+}

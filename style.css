@@ -1,0 +1,31 @@
+/*引入自定义字体*/
+@font-face {
+    font-family: Percent;
+    src: url('Gill_num.ttf');
+    /* IE9 Compat Modes */ src: url('Gill_num.ttf') format('embedded-opentype'),
+    /* IE6-IE8 */ url('Gill_num.ttf') format('woff'),
+    /* Modern Browsers */ url('Gill_num.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('Gill_num.ttf') format('svg');
+    /* Legacy iOS */
+}
+html,body{
+  margin:0;
+  padding:0;
+  border:0;
+}
+#preload{
+  width: 100vw;
+  height: 100vh;
+  background: #0b0b1c;
+  text-align: center;
+}
+#logo{
+  width: 19vw;
+  height: auto;
+  margin-top: 32.7vh;
+}
+#percent{
+   font-family: Percent, Arail;
+   color: #fff;
+   font-size: 0.88rem;
+}
